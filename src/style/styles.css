@@ -17,6 +17,7 @@ body{
     padding: 0%;
     padding-left: 5%;
     padding-right: 5%;
+    z-index: 10;
 }
 
 .nav-link{
@@ -37,8 +38,62 @@ body{
     image-rendering: optimizeQuality;
 }
 
+.carrusel{
+    height: 34%;
+    position: absolute;
+    top: -15%;
+    z-index: 1;
+}
+
+.nature_tours{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent url('../img/background-dark2x.png') 0% 0% no-repeat padding-box;
+    opacity: 0.9;
+}
+
+.nature_tours_title{
+    position: absolute;
+    width: 20%;
+    top: 27%;
+    right: 54%;
+    font-size: 3em;
+    text-align: right;
+    font-weight: bolder;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    color: white;
+    opacity: 1;
+    z-index: 1;
+}
+
+.nature_tours_text{
+    position: absolute;
+    width: 27%;
+    top: 27%;
+    left: 54%;
+    font-size: 1em;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.3em;
+    letter-spacing: 0;
+    color: white;
+    opacity: 1;
+    z-index: 1;
+}
+
 .rectangulo{
     margin-left: -15%;
     width: 130%;
     image-rendering: optimizeQuality;
+}
+
+.tejido{
+    position: absolute;
+    top: -5%;
+    right: 54%;
+    width: 34%;
 }
